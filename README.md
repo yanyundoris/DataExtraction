@@ -11,7 +11,7 @@ and save them as csv or json.
 
 Besides, DataExtraction support:
 
-1. Data format transform: convert Json object to DataFrame for MySQL. You may not need this since usually we don't store json object or dict in Mysql, and this function is a project-oriented since we happened have some json-like or dict data stored in relational database. 
+1. Data format transform: convert Json object to DataFrame for MySQL. You may not need this since usually we don't store json object or dict in Mysql, and this function is project-oriented since we happened have some json-like or dict data stored in relational database. 
 
 2. Query with list type of condition [Not a join operation, the conditon list should be specified in advance]: You can use this package to specified a (list) of condition you may need to filter your query.
 
