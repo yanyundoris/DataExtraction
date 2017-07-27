@@ -61,7 +61,7 @@ AUTHOR_EMAIL = "dorisliu9318@gmail.com"
 URL = "https://github.com/yanyundoris/DataExtraction"
 DOWNLOAD = 'https://github.com/yanyundoris/DataExtraction/archive/0.1.tar.gz'
 
-VERSION = "1.0.13"
+VERSION = "1.0.20"
 
 
 LICENSE = "MIT"
@@ -69,7 +69,7 @@ LICENSE = "MIT"
 
 setup(
     name=NAME,
-    scripts=['DataExtractionTool.py'],
+    scripts=['ExtractionTool/DataExtractionTool.py'],
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
